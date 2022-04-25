@@ -1,3 +1,13 @@
+/* Author: Eva Pace
+ *
+ * https://leetcode.com/submissions/detail/687249476/
+ *
+ * 11 / 11 test cases passed.
+ *
+ * Runtime: 0ms
+ * Memory Usage: 2.2MB
+ * */
+
 // #[inline(always)]
 fn bit_count(mut num: i32) -> i32 {
     let mut count = 0;

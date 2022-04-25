@@ -1,3 +1,12 @@
+/* Author: Eva Pace
+ *
+ * https://leetcode.com/submissions/detail/687069990/
+ *
+ * 11 / 11 test cases passed.
+ *
+ * Runtime: 1ms
+ * Memory Usage: 2.1MB
+ * */
 const fn generate_const() -> [i32; 0b1111_111111] {
     let mut result = [0; 0b1111_111111];
 
