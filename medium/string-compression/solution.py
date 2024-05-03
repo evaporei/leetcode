@@ -12,9 +12,9 @@ class Solution:
             index += 1
             count = j - i
             if count > 1:
-                for ch in str(count):
-                    s[index] = ch
-                    index += 1
+                count_str = str(count)
+                s[index:index + len(count_str)] = count_str
+                index += len(count_str)
             i = j
     
         if old_len > index:
